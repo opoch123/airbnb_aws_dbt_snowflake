@@ -19,23 +19,6 @@ This repository implements a full **ELT workflow**:
 
 ---
 
-## 🧩 Repository Structure
-airbnb_aws_dbt_snowflake/
-├── dbt_project.yml # dbt configuration
-├── models/ # dbt transformation SQL models
-│ ├── raw/ # Raw landing models
-│ ├── staging/ # Cleaning & standardization
-│ ├── core/ # Fact & dimension logic
-│ └── marts/ # Analytics-ready models
-├── seeds/ # Static seed data
-├── snapshots/ # SCD & historical snapshots
-├── macros/ # Reusable dbt SQL macros
-├── tests/ # Custom dbt tests
-├── profiles.yml.example # Snowflake connection example
-└── README.md # Project documentation
-
----
-
 ## 🛠 Tech Stack
 
 ![AWS](https://img.shields.io/badge/AWS-S3%20%7C%20IAM-lightgray)
