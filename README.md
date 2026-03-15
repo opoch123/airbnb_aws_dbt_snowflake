@@ -47,6 +47,7 @@ airbnb_aws_dbt_snowflake/
 
 ## 📈 Data Workflow
 
+```mermaid
 flowchart LR
     A[AWS S3 Raw Files] --> B[Snowflake Raw Schema]
     B --> C[dbt Staging Models]
