@@ -47,10 +47,9 @@ airbnb_aws_dbt_snowflake/
 
 ## 📈 Data Workflow
 
-```mermaid
 flowchart LR
     A[AWS S3 Raw Files] --> B[Snowflake Raw Schema]
     B --> C[dbt Staging Models]
-    C --> D[dbt Core Models (Facts & Dimensions)]
+    C --> D[dbt Core Models - Facts & Dimensions]
     D --> E[Analytics-Ready Datasets]
     E --> F[BI Dashboards / Reports]
